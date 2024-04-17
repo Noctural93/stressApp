@@ -34,6 +34,17 @@
             > a {
                 text-decoration: none;
                 color: #fff;
+                &::after {
+                    display: block;
+                    content: '';
+                    border-bottom: 2px solid #fff;
+                    transform: scaleX(0);
+                    // transform-origin: 0% 50%;
+                }
+                &:hover::after {
+                    transition: transform 0.3s ease-in-out;
+                    transform: scaleX(1);
+                }
             }
         }
     }

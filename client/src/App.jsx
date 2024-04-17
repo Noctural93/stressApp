@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 import Loader from "./components/Loader"
 import Header from "./components/Header"
+import Footer from "./components/Footer"
 
 const Home = lazy(() => import('./pages/Home'))
 const Blogs = lazy(() => import('./pages/Blogs'))
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/lectures" element={<Lectures/>}/>
           <Route path="/contact" element={<Contact/>}/>
         </Routes>
+        <Footer/>
       </Suspense>
     </BrowserRouter>
   )

@@ -11,10 +11,10 @@ const Header = () => {
         </div>
         <div className='navigation-path-container'>
             <ul>
-                <li><Link to='/'>Home</Link></li>
-                <li><Link to='/blogs'>Blogs</Link></li>
-                <li><Link to='/lectures'>Lectures</Link></li>
-                <li><Link to='/contact'>Contact</Link></li>
+                <li><Link reloadDocument to='/'>Home</Link></li>
+                <li><Link reloadDocument to='/blogs'>Blogs</Link></li>
+                <li><Link reloadDocument to='/lectures'>Lectures</Link></li>
+                <li><Link reloadDocument to='/contact'>Contact</Link></li>
             </ul>
         </div>
       </div>
