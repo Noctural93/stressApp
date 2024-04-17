@@ -1,0 +1,40 @@
+.nav-container {
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #0c9ced;
+}
+
+.header-container {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.logo-container {
+    > img {
+        height: 160px;
+        object-fit: contain;
+    }
+}
+
+.navigation-path-container {
+    > ul {
+        display: flex;
+        gap: 21px;
+        list-style-type: none;
+        font-weight: 550;
+        font-size: 18px;
+        > li {
+            > a {
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+}

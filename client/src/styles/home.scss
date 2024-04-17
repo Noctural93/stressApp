@@ -1,0 +1,19 @@
+.home-container {
+    min-height: 92vh;
+    width: 100%;
+    position: relative;
+    > div{
+        height: 92vh;
+        width: 100%;
+        background-image: url('https://d37v7cqg82mgxu.cloudfront.net/cloudfront/img/cloud-bg.jpg?v=2.0');
+        background-size: cover;
+        > img {
+            height: 200px;
+            position: absolute;
+            // top: calc(100% - 200px);
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+        }
+    }
+}
