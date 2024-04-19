@@ -1,0 +1,36 @@
+.blogs-items {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 1.9px solid rgba(163, 221, 244, 0.79);
+    cursor: pointer;
+    > a {
+        text-decoration: none;
+        > h1 {
+            color: #000;
+            font-size: 28px;
+            padding-bottom: 13px;
+        }
+    }
+}
+
+.para-content {
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.tips-para {
+    color: rgb(109, 109, 109);
+    font-size: 19px;
+    padding: 1rem 0;
+    font-weight: 500;
+}
+
+.tips-list {
+    color: rgb(102, 102, 102);
+    padding-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}

@@ -1,0 +1,19 @@
+.blogs-container {
+    min-height: 92vh;
+    width: 100%;
+    background-image: url('https://d37v7cqg82mgxu.cloudfront.net/cloudfront/img/cloud-bg.jpg?v=2.0');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.blogs {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}

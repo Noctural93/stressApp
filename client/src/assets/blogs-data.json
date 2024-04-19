@@ -1,0 +1,91 @@
+{
+    "blogs": [
+        {
+            "link": "https://blog.iqmatrix.com/manage-your-stress",
+            "title": "How to Manage Your Stress Levels",
+            "smallContent": "Life skills coach and visual thinking consultant, Adam Sicinski provides information and examples at IQ Matrix. In fact, the IQ Matrix team works to help people improve and maximize their potential through mind mapping and life coaching principles designed to help them overcome life's challenges. Sicinski's stress management article, How to Manage Your Stress Levels, is a comprehensive stress management resource that examines how nutrition, mindset, the body, actions, interactions, and activities can help us to better manage our stress.",
+            "keyPoints": [
+                {
+                    "first": "Avoid food that aggravates and elevates stress levels and eat more nutrient-rich foods that settle the body and naturally calm the mind",
+                    "second": "Gain perspective and think about the bigger picture",
+                    "third": "Begin meditating and visualizing to ease stress levels and center the mind"
+                }
+            ]
+        },
+        {
+            "link": "https://www.positivityblog.com/",
+            "title": "The Positivity Blog",
+            "smallContent": "Henrik Edberg creates courses, books, and The Positivity Blog to help others increase their happiness and ease their stress. The blog offers “happiness and awesomeness tips that work in real life,” including those to increase self-esteem and self-confidence, reduce procrastination, and more, to lead people to less stressed, more successful lives.",
+            "keyPoints": [
+                {
+                    "first": "How to Deal with Stress: 33 Tips That Work",
+                    "second": "How to Stop Worrying: 9 Simple Habits",
+                    "third": "21 Small Ways to Make Life Simpler"
+                }
+            ]
+        },
+        {
+            "link": "https://adrenalfatiguesolution.com/can-probiotics-help-reduce-stress-levels/",
+            "title": "Can Probiotics Help to Reduce Your Stress Levels?",
+            "smallContent": "Fawne Hansen, a holistic wellness and expert in treating chronic stress and adrenal fatigue, shares her stress management article, Can Probiotics Help to Reduce Your Stress Levels? The article examines a study done at University College Cork, Ireland, that shows some probiotics could have a calming effect on the brain, including reducing stress and anxiety.",
+            "keyPoints": [
+                {
+                    "first": "There is a direct neuron route from the gut to the brain, which opens the possibility of nutritional therapies for anxiety and stress",
+                    "second": "Lactobacillus is a strain of probiotics that may help to reduce stress",
+                    "third": "Probiotics increase the level of good bacteria in the gut, which can improve the way we think"
+                }
+            ]
+        },
+        {
+            "link": "https://tinybuddha.com/blog/how-to-reduce-stress-by-doing-less-and-doing-it-slowly/",
+            "title": "How to Reduce Stress by Doing Less and Doing It Slowly",
+            "smallContent": "Tiny Buddha offers “simple wisdom for complex lives, with quotes, tips, and stories to help us help ourselves and each other.” How to Reduce Stress by Doing Less an Doing It Slowly is one of Tiny Buddha’s stress management articles that we think shares some great tips for slowing down and reducing stress levels.",
+            "keyPoints": [
+                {
+                    "first": "Double the time you allot for completing tasks",
+                    "second": "Consciously perform tasks more slowly",
+                    "third": "Reduce your amount of multitasking"
+                }
+            ]
+        },
+        {
+            "link": "https://drhyman.com/blog/2013/04/26/five-ways-to-never-be-stressed-again/",
+            "title": "Five Ways to Never Be Stressed Again",
+            "smallContent": "Dr. Mark Hyman is a New York Times bestselling author who is “dedicated to transforming healthcare and tackling the root causes of chronic illness through functional medicine.” His stress management article, Five Ways to Never Be Stressed Again, explains that stress is a perception and that people need to do a U-turn to worry and stress less.",
+            "keyPoints": [
+                {
+                    "first": "Get moving to burn off stress hormones without having to change your way of thinking",
+                    "second": "Take deep, slow, full breaths to reset stress responses and activate your relaxation nerve",
+                    "third": "Make sleep a priority and strive to get your full eight hours"
+                }
+            ]
+        },
+        {
+            "link": "https://www.verywellmind.com/stress-management-4157211",
+            "title": "About Health - Stress Management",
+            "smallContent": "About.com Health offers tips for living a healthy, happy life. Their stress management section is under the guidance of Elizabeth Scott, MS, stress management expert. The blog offers stress management techniques, quizzes to determine your stress levels, and stress management tips.",
+            "keyPoints": [
+                {
+                    "first": "Individualized Stress Relief for Better Health",
+                    "second": "Release Tension with Stress Relief Breathing",
+                    "third": "How to Develop a Stress Relief Plan That Works"
+                }
+            ]
+        },
+        {
+            "link": "https://yorkshirestressmanagement.blogspot.com/",
+            "title": "Stress and Resilience",
+            "smallContent": "Debbie Waller and the Yorkshire Stress Management team provide help and support for individuals who wish to learn coping strategies for stress through stress management coaching, seminars, and training. Stress and Resilience is their stress management blog, offering practical tips for improving emotional resilience and developing a stronger sense of wellbeing by becoming more educated about stress and how to handle it.",
+            "keyPoints": [
+                {
+                    "first": "Stressed? 8 Reasons You Need to Get a Colouring Book",
+                    "second": "Seven Simple Ways to Banish Negative Thoughts",
+                    "third": "Coping with Stress in Companies"
+                }
+            ]
+        }
+    ],
+    "lectures": [
+        {}
+    ]
+}
