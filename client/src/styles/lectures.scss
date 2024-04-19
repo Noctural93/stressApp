@@ -1,0 +1,70 @@
+.leatures-main-container {
+    min-height: 90vh;
+    width: 100%;
+    background-image: url('https://d37v7cqg82mgxu.cloudfront.net/cloudfront/img/cloud-bg.jpg?v=2.0');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 3rem 0;
+}
+
+.leatures {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.videos {
+    height: 550px;
+    width: 100%;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 1.9px solid rgba(163, 221, 244, 0.79);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    > h1 {
+        font-weight: 500;
+        font-size: 26px;
+        margin-top: 0.9rem;
+    }
+}
+
+.yt-video {
+    height: 90%; 
+    width: 100%;
+    border-radius: 10px;
+}
+
+.recent-lectures-search-container {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 22px;
+}
+
+.recent-videos-list {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    > svg {
+        font-size: 18px;
+        animation: transform-svg 0.7s ease-in-out infinite;
+    }
+    > a {
+        width: 100%;
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+@keyframes transform-svg {
+    to {
+        transform: translateX(8px);
+    }
+}
