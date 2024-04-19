@@ -18,7 +18,8 @@ const Blogs = () => {
     }
     const filterdList = blogsList.filter((item) => {
       if(item.title.toLocaleLowerCase().includes(search.toLocaleLowerCase())){
-        if(item === ''){
+        console.log(item.length)
+        if(item.length === 0){
           setNotFound(prev => !prev)
         }
         return item;

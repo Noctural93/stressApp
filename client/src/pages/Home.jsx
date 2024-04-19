@@ -1,3 +1,5 @@
+import img from '../assets/meditation.png'
+
 const Home = () => {
   return (
     <div className="home-container">
@@ -5,6 +7,7 @@ const Home = () => {
         <h1>Welcome to CalmSpace</h1>
         <p>Feeling stressed? You're in the right place. Welcome to CalmSpace, your personal sanctuary for managing stress and promoting well-being.</p>
         <img src="https://d37v7cqg82mgxu.cloudfront.net/img/home/sun.svg" alt='sun'/>
+        <img src={img} alt='meditation'/>
       </div>
       <div className="explore-section">
         <h1>Explore Our Features</h1>
