@@ -73,3 +73,26 @@
         transform: translateX(8px);
     }
 }
+
+@media screen and (max-width: 912px) {
+    .leatures-main-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .recent-lectures-search-container {
+        width: 40%;
+    }
+    .leatures {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 612px) {
+    .leatures-main-container {
+        padding-top: 16vh;
+    }
+    .recent-lectures-search-container {
+        width: 60%;
+    }
+}

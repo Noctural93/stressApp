@@ -2,8 +2,8 @@
     height: 10vh;
     width: 100%;
     display: flex;
-    justify-content: center;
-    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
     background-color: #0c9ced;
 }
 
@@ -47,5 +47,54 @@
                 }
             }
         }
+    }
+}
+
+.hamburger-container {
+    display: none;
+}
+
+.navigation-path-small-devices-container {
+    display: none;
+}
+
+@media screen and (max-width: 612px) {
+    .navigation-path-container {
+        > ul {
+            display: none;
+        }
+    }
+    .nav-container {
+        position: absolute;
+        z-index: 9;
+    }
+    .hamburger-container {
+        display: flex;
+        font-size: 31px;
+    }
+    .navigation-path-small-devices-container {
+        position: relative;
+        display: none;
+        background-color: #0c9ced;
+        width: 100%;
+        display: none;
+        justify-content: center;
+        padding: 1rem;
+        z-index: 99;
+        > ul {
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            gap: 9px;
+            > li {
+                > a {
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .navigation-path-small-devices-container.active {
+        display: flex;
     }
 }

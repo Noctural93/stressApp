@@ -18,6 +18,8 @@
         font-family: sans-serif;
         font-weight: 550;
         color: #006fad;
+        text-align: center;
+        width: 90%;
     }
     > p {
         width: 50%;
@@ -26,6 +28,7 @@
         font-size: 21px;
         font-weight: 550;
         margin-top: 1.9rem;
+        width: 70%;
     }
     > img {
         height: 200px;
@@ -42,6 +45,7 @@
     background: linear-gradient(to right, #1e90fe 0%, #73ccde 100%);
     color: #fff;
     background-size: cover;
+    width: 100%;
     > h1 {
         font-family: sans-serif;
         font-weight: 550;
@@ -59,5 +63,42 @@
                 font-weight: 550;
             }
         }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .intro-section {
+        > img {
+            height: 140px;
+        }
+        > h1 {
+            font-size: 32px;
+        }
+        > p {
+            margin-top: 0.5rem;
+        }
+    }
+}
+
+@media screen and (max-width: 812px) {
+    .explore-section {
+        padding: 4rem 3rem;
+        > h1 {
+            font-size: 32px;
+        }
+        > ul {
+            > li {
+                font-size: 16px;
+                > span {
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 342px) {
+    .sun {
+        display: none;
     }
 }

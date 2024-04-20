@@ -1,5 +1,5 @@
 .contact-container {
-    height: 90vh;
+    min-height: 90vh;
     width: 100%;
     background-image: url('https://d37v7cqg82mgxu.cloudfront.net/cloudfront/img/cloud-bg.jpg?v=2.0');
     background-size: cover;
@@ -11,11 +11,11 @@
 }
 .form-container {
     height: 100%;
-    width: 35%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     gap: 7px;
-    padding: 4rem;
+    padding: 3rem;
     background-color: #fff;
     border-radius: 10px;
     border: 1.9px solid rgba(163, 221, 244, 0.79);
@@ -35,14 +35,16 @@
 
 .input-text {
     outline: none;
-    height: 10rem;
+    height: 2rem;
     font-size: 1.2rem;
     padding-left: 1rem;
     margin-bottom: 1rem;
 }
 
 .textarea-input {
+    min-height: 4rem;
     height: 11rem;
+    max-width: 100%;
     outline: none;
     padding: 1rem;
     font-size: 1.2rem;
@@ -58,4 +60,23 @@
     font-size: 1.1rem;
     font-weight: 500;
     cursor: pointer;
+}
+
+@media screen and (max-width: 912px) {
+    .form-container {
+        width: 60%;
+        padding: 3rem;
+    }
+    .textarea-input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 612px) {
+    .contact-container {
+        padding-top: 16vh;
+    }
+    .form-container {
+        width: 80%;
+    }
 }

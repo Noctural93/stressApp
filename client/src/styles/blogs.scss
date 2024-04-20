@@ -102,3 +102,29 @@
         transform: translateX(8px);
     }
 }
+
+@media screen and (max-width: 912px) {
+    .blogs-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .search-recent-blogs-container {
+        width: 40%;
+    }
+    .recent-posts {
+        display: none;
+    }
+    .blogs {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 612px) {
+    .blogs-container {
+        padding-top: 16vh;
+    }
+    .search-recent-blogs-container {
+        width: 60%;
+    }
+}

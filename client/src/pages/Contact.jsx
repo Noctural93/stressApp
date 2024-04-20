@@ -31,11 +31,12 @@ const Contact = () => {
           Have a question or need support? We're here to help! Please feel free to reach out to our team by filling this form...
         </p>
         <label className='label'>Name</label>
-        <input required type="text" name="user_name" className='input-text'/>
+        <input required type="text" name="user_name" className='input-text' placeholder='Enter Your Name'/>
         <label className='label'>Email</label>
-        <input required type="email" name="user_email" className='input-text'/>
+        <input required type="email" name="user_email" className='input-text' placeholder='Enter Your Email'/>
         <label className='label'>Message</label>
-        <textarea required name="message" className='textarea-input'/>
+        <textarea required name="message" className='textarea-input'
+        placeholder='Please Write What You Want To Say...'/>
         <input type="submit" value="Send" className='submit-btn'/>
       </form>
     </div>
